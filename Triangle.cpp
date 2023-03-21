@@ -1,5 +1,6 @@
 #include "Triangle.h"
 #include <iostream>
+#include <cmath>
 
 bool Triangle::exst_tr() {
     return ((a + b > c) && (b + c > a) && (a + c > b));
